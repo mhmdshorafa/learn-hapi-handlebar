@@ -31,6 +31,10 @@ server.route({
   method:'GET',
   path:'/hello',
   handler:function(request,reply){
+    console.log('path',request.path);
+    console.log('params',request.params);
+    console.log('uri',request.URI);
+    console.log('query',request.query);
     function getdatabase(cb) {
       var sqlquery = 'SELECT * FROM users';
       client.query(sqlquery,(err,result)=>{
