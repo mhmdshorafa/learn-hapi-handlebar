@@ -45,6 +45,8 @@ server.route({
     }
 
     getdatabase((err,result)=>{
+      id = result.id;
+      username = result.username;
       reply.view('index',{id:id,username:username});
     });
 
