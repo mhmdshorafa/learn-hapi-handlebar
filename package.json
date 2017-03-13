@@ -1,0 +1,29 @@
+{
+  "name": "learn-hapi-handlebar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmdshorafa/learn-hapi-handlebar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhmdshorafa/learn-hapi-handlebar/issues"
+  },
+  "homepage": "https://github.com/mhmdshorafa/learn-hapi-handlebar#readme",
+  "dependencies": {
+    "g": "^2.0.1",
+    "handlebar": "^1.0.0",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0",
+    "path": "^0.12.7",
+    "pg": "^6.1.4",
+    "vision": "^4.1.1"
+  }
+}
